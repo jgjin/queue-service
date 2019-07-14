@@ -1,0 +1,16 @@
+[package]
+name = "queue"
+version = "0.1.0"
+authors = ["banana <jgjin@umich.edu>"]
+edition = "2018"
+
+[dependencies]
+crossbeam-queue = "0.1.2"
+rocket = "0.4.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.2"
+default-features = false
+features = ["json"]
