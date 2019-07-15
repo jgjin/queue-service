@@ -8,6 +8,8 @@ extern crate reqwest;
 extern crate serde;
 extern crate serde_json;
 
+mod email;
+mod email_grpc;
 mod mock;
 mod other_services;
 mod utils;

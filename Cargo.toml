@@ -6,7 +6,10 @@ edition = "2018"
 
 [dependencies]
 crossbeam-queue = "0.1.2"
+futures = "*"
+grpcio = { version = "0.4", default-features = false, features = ["protobuf-codec"] }
 periodic = "0.1.1"
+protobuf = "2.7.0"
 rand = "0.7.0"
 reqwest = "0.9.18"
 rocket = "0.4.2"
